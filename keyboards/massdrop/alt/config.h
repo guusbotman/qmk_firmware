@@ -91,8 +91,8 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define USB2422_VENDOR_ID 0x04D8
 #define USB2422_PRODUCT_ID 0xEEC5
 #define USB2422_DEVICE_VER 0x0101
-#define USB2422_MANUFACTURER "Massdrop Inc."
-#define USB2422_PRODUCT "Massdrop Hub"
+#define USB2422_MANUFACTURER "Guus Inc."
+#define USB2422_PRODUCT "Guus Hub"
 #define USB2422_ACTIVE_PIN A18
 
 /* Debounce reduces chatter (unintended double-presses) - set 0 if debouncing is not needed */
@@ -104,7 +104,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 //#define LOCKING_RESYNC_ENABLE
 
 /* Force boot in NKRO mode */
-//#define FORCE_NKRO
+#define FORCE_NKRO
 
 /*
  * Feature disable options
